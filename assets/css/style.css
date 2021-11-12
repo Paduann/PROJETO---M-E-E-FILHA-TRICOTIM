@@ -1,0 +1,414 @@
+* {
+    background: url(../img/pink-1311251.jpg);
+}
+
+header .secao-cabecalho {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .secao-cabecalho .titulo {
+    width: 50%;
+    font-size: 30px;
+    color: #AC8041;
+}
+
+header .secao-cabecalho .navbar {
+    width: 100%;
+    height: 100%;
+}
+
+header .secao-cabecalho .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+header .secao-cabecalho .navbar ul .item-nav {
+    margin-left: 8px;
+}
+
+header .secao-cabecalho .navbar ul .item-nav .link-nav {
+    text-decoration: none;
+    font-size: 18px;
+    color: #4B297D;
+    transition: font-size 1s;
+    transition: font-weight 0.02s;
+}
+
+header .secao-cabecalho .navbar ul .item-nav .link-nav:hover {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carrousel {
+    margin: 0 auto 32px auto;
+    height: 250px;
+    overflow: hidden;
+}
+
+.carrousel .carousel-inner {
+    width: 90%;
+    margin: 32px auto 32px auto;
+}
+
+.carrousel .imagens-carrousel {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+} 
+
+.carrousel .imagens-carrousel img{
+    width: 100%;  
+}
+
+.secao-botao {
+    height: 50px;
+}
+
+.secao-botao .botao-topo {
+    background-color: #FFF;
+    position: fixed;
+    bottom: 20px;
+    right: -500px;
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+}
+
+.aparece-botao .botao-topo{
+ right: 1px;
+ bottom: 100px;
+}
+
+.secao-conteudo {
+    text-align: center;
+    padding: 16px;
+}
+
+.secao-conteudo .cards {
+    margin: 0 0 16px 32px;
+    height: 150px;
+    width: 80%;
+    border: 2px solid darkmagenta;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+
+.secao-conteudo .cards h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #4B297D;
+}
+
+.secao-conteudo .cards p{
+    color: #4B297D;
+}
+
+.secao-produtos {
+    text-align: center;
+    padding: 16px;
+}
+
+.secao-produtos .titulo-produto {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #4B297D;
+}
+
+.secao-produtos h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #4B297D;
+}
+
+.secao-produtos .carousel-inner {
+    width: 70%;
+    margin: 32px auto 32px auto;
+}
+
+.secao-produtos .paragrafo-imagemProduto {
+    font-size: 18px;
+    color: #4B297D;
+    margin-top: 16px;
+}
+
+.secao-produtos .paragrafo-imagemProduto a {
+    text-decoration: none;
+    color: #4B297D;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.secao-produtos .imagens-produtos {
+    display: none;
+}
+
+footer {
+    height: 92px;
+    padding: 16px;
+    padding-top: 0;
+}
+
+footer .contato-rodape {
+    height: 100%;
+}
+
+footer .contato-rodape .icones-contato {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+footer .contato-rodape .icones-contato h2 {
+    font-size: 18px;
+    color: #4B297D;
+    
+}
+
+footer .contato-rodape .icones-contato img {
+    height: 35px;
+    width: 35px;
+    margin: 16px;
+
+}
+
+footer .contato-rodape .copyright  {
+    text-align: center;
+    padding-bottom: 16px;
+    color: #4B297D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+    header .secao-cabecalho .titulo {
+        font-size: 42px;
+        margin: 16px;
+    }
+
+    .container-nav {
+        margin-right: 16px;
+    }
+
+    header .secao-cabecalho .navbar ul .item-nav .link-nav {
+        font-size: 25px;
+    }
+
+    header .secao-cabecalho .navbar ul {
+        margin-right: 16px;
+    }
+
+    header .secao-cabecalho .navbar ul .item-nav .link-nav:hover {
+        font-size: 27px;
+    }
+
+    .carrousel {
+        height: 350px;
+    }
+    
+
+    .secao-conteudo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secao-conteudo .cards {
+        width: 40%;
+        padding: 16px;
+    }
+
+    footer .contato-rodape .icones-contato {
+        width: 600px;
+        justify-content: center;
+        margin: 0 auto 0 auto;
+    }
+
+    
+    footer .contato-rodape .icones-contato h2 {
+        font-size: 24px;
+    }
+
+    
+    footer .contato-rodape .icones-contato img {
+        height: 40px;
+        width: 40px;
+    }
+
+    footer .contato-rodape .copyright {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 760px){
+    .secao-conteudo {
+        margin-top: 55px;
+        flex-direction: row;
+    }
+
+    .secao-conteudo .cards {
+        height: 300px;
+        
+    }
+
+    .secao-conteudo .cards:first-child {
+        margin-left: 0;
+    }
+
+    .secao-conteudo .cards h1 {
+        font-size: 26px;
+    }
+
+    .secao-conteudo .cards p{
+        font-size: 20px;
+    }
+
+    .secao-produtos .paragrafo-imagemProduto {
+        font-size: 22px;
+    }
+
+    .secao-produtos .titulo-produto {
+        font-size: 35px;
+    }
+
+    .secao-produtos h3 {
+        font-size: 25px;
+    }
+
+    .aparece-botao .botao-topo{
+        right: 40px;
+        opacity: 1;
+        z-index: 1000;
+    }
+
+    .aparece-botao .botao-topo img {
+        height: 80px;
+        width: 80px;
+    }
+
+    
+}
+
+@media (min-width: 1000px){
+    header .secao-cabecalho .titulo {
+        font-size: 60px;
+    }
+
+    header .secao-cabecalho .navbar ul .item-nav {
+        margin-left: 15px;
+    }
+
+    header .secao-cabecalho .navbar ul .item-nav .link-nav {
+        font-size: 30px;
+    }
+
+    .carrousel {
+        height: 600px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .carrousel  #imagem-carousel {
+        object-position: 0 80%;
+    }
+    
+    .secao-conteudo .cards {
+        width: 400px;
+    }
+
+    .secao-conteudo .cards h1 {
+        font-size: 26px;
+    }
+
+    .secao-conteudo .cards p{
+        font-size: 24px;
+    }
+
+    .secao-produtos .paragrafo-imagemProduto {
+        font-size: 30px;
+    }
+
+    .secao-produtos .titulo-produto {
+        font-size: 45px;
+    }
+
+    .secao-produtos h3 {
+        font-size: 35px;
+    }
+
+    footer .contato-rodape .icones-contato h2 {
+        font-size: 28px;
+    }
+
+    footer .contato-rodape .copyright {
+        font-size: 24px;
+    }
+
+    .aparece-botao .botao-topo{
+        right: 40px;
+        opacity: 1;
+        z-index: 1000;
+    }
+
+    .aparece-botao .botao-topo img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .secao-produtos #carouselExampleControls {
+        display: none;
+    }
+
+    .secao-produtos .imagens-produtos {
+        width: 100%;
+        display: flex;
+        margin: 64px 0 32px 0;
+    }
+
+    .secao-produtos .imagens-produtos .retrato-imagem {
+        margin: 0 32px 0 32px;
+    }
+
+    .secao-produtos .imagens-produtos .retrato-imagem figcaption {
+        color: #4B297D;
+        font-size: 20px;
+    }
+
+    .aparece-botao .botao-topo{
+        right: 40px;
+        opacity: 1;
+        z-index: 1000;
+    }
+
+    .aparece-botao .botao-topo img {
+        height: 80px;
+        width: 80px;
+    }
+
+}
